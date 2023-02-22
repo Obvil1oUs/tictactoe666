@@ -1,0 +1,74 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f5f5f5;
+  color: #333;
+}
+  
+#message {
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+/* Оформление таблицы */
+#board {
+  border-collapse: collapse;
+  margin: 20px auto;
+  }
+
+#board td {
+  border: 2px solid black;
+  width: 100px;
+  height: 100px;
+  font-size: 50px;
+  text-align: center;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+/* Оформление сообщения о победе */
+#message {
+  font-size: 24px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Оформление блока счетчика побед */
+#counter {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#counter span {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+/* Оформление кнопки Restart */
+#restart {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  font-size: 20px;
+  font-weight: bold;
+  background-color: #eee;
+  border: 2px solid black;
+  cursor: pointer;
+}
+
+/* Оформление заголовка */
+h1 {
+  text-align: center;
+  margin-top: 20px;
+}
+
+/* Оформление ячеек с крестиками и ноликами */
+.x {
+  color: blue;
+}
+
+.o {
+  color: red;
+}
